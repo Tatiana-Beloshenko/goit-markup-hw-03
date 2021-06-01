@@ -7,37 +7,38 @@
     <title>HTML-CSS 38</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" rel="stylesheet">
 <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
-    <header>
+    <header class="header-nav">
         <div class="container">
         <!--навигация по сайту, контакты-->
-        <nav>
+        <nav class="main-nav">
         <a href="" class="logo">
         <span class="web">Web</span><span>Studio</span>
         </a>
             <ul class="site-nav">
-                <li>
+                <li class="item">
                     <a href="" class="link current">Студия</a>
-                </li>
-                <li>
+                </li> 
+                <li class="item">
                     <a href="./portfolio.html" class="link">Портфолио</a>
                 </li>
-                <li>
+                <li class="item">
                     <a href="" class="link">Контакты</a>
                 </li>
             </ul>
-        </nav>
+        
         <ul class="site-contact">
-            <li>
+            <li class="item">
                 <a href="mailto:info@devstudio.com" class="link">info@devstudio.com</a>
             </li>
-            <li>
+            <li class="item">
                 <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
             </li>
         </ul>
+        </nav>
         </div>
     </header>
     <main>
@@ -56,22 +57,22 @@
             <div class="container">
             <!--описание особенностей веб-студии-->
             <h2 hidden>Особенности</h2>
-            <ul>
-                <li>
+            <ul class="features">
+                <li class="item">
                     <h3 class="section-title font-title">Внимание к деталям</h3>
-                    <p class="font-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>                         
+                    <p class="features-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>                         
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="section-title font-title" >Пунктуальность</h3>
-                    <p class="font-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>                         
+                    <p class="features-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>                         
                 </li>
-                <li>
+                <li class="item">
                     <h3 class="section-title font-title">Планирование</h3>
-                    <p class="font-text" >Равным образом консультация с широким активом в значительной степени обуславливает.</p>                         
+                    <p class="features-text" >Равным образом консультация с широким активом в значительной степени обуславливает.</p>                         
                 </li>
-                <li>
+                <li class="item"> 
                     <h3 class="section-title font-title" >Современные технологии</h3>
-                    <p class="font-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>                         
+                    <p class="features-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>                         
                 </li>
             </ul>
         </div>
@@ -79,15 +80,15 @@
         <section class="section">
             <div class="container">
             <!--чем занимается веб-студия-->
-            <h2 class="section-title" >Чем мы занимаемся</h2>
-            <ul>
-                <li>
+            <h2 class="section-title specification-title" >Чем мы занимаемся</h2>
+            <ul class="specification">
+                <li class="item">
                     <img src="./img/imgv.jpg" alt="ПК, планшет,клавиатура,блокнот на столе" width="370"/>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./img/imgj.jpg" alt="Смартфон и ноутбук" width="370"/>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./img/imgd.png" alt="Ноутбук, мышь, планшет" width="370"/>
                 </li>
             </ul>
@@ -96,24 +97,24 @@
         <section class="section">
             <div class="container">
             <!--сотрудники веб-студии-->
-            <h2 class="section-title">Наша команда</h2>
-            <ul>
-                <li>
+            <h2 class="section-title team-title">Наша команда</h2>
+            <ul class="team">
+                <li class="item">
                     <img src="./img/igor.jpg" alt="Игорь Демьяненко" width="270"/>
                     <h3 class="section-title font-name">Игорь Демьяненко</h3>
                     <p lang="en" class="font-profession">Product Designer</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./img/olga.jpg" alt="Ольга Репина" width="270"/>
                     <h3 class="section-title font-name ">Ольга Репина</h3>
                     <p lang="en" class="font-profession">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="item">
                     <img src="./img/nik.jpg" alt="Николай Тарасов" width="270"/>
                     <h3 class="section-title font-name" >Николай Тарасов</h3>
                     <p lang="en" class="font-profession">Marketing</p>
                 </li>
-                <li>
+                <li  class="item">
                     <img src="./img/maikl.jpg" alt="Михаил Ермаков" width="270"/>
                     <h3 class="section-title font-name">Михаил Ермаков</h3>
                     <p lang="en" class="font-profession">UI Designer</p>
